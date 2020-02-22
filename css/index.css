@@ -164,6 +164,11 @@ padding-bottom: 2em;
 border-bottom: dotted 2px black;
 
 }
+.first-box h2 {
+
+margin-top: 10px;
+
+}
 .first-box a {
 display: block;
 padding: 10px ;
@@ -182,6 +187,11 @@ text-align: center;
     border-bottom: dotted 2px black;
 
 
+}
+.second-box h2 {
+
+    margin-top: 10px;
+ 
 }
 .second-box a {
     display: block;
@@ -208,6 +218,12 @@ text-align: center;
     border-bottom: dotted 2px black;
 
 }
+
+.third-box h2{
+    margin-top: 10px;
+
+
+}
 .third-box a {
     
     display: block;
@@ -228,6 +244,12 @@ text-align: center;
     margin-bottom: 5em;
     padding-bottom: 2em;
     border-bottom: dotted 2px black;
+
+
+}
+
+.forth-box h2 {
+    margin-top: 10px;
 
 
 }
