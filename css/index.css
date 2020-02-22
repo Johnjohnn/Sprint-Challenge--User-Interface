@@ -46,10 +46,232 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/*========= Navigation ==========*/
+.navigation {
+display: flex;
+justify-content: space-around;
+margin: 4em 26em 3em 26em ;
+
+
+}
+
+.navigation a {
+text-decoration: none;
+text-transform: capitalize;
+color: black;
+
+}
+
+
+/*========== Picture ==========*/
+ .picture {
+
+margin-left: 25%;
+margin-bottom: 2em;
+width:50%;
+
+
+ }
+
+
+/*========== Boxex ==========*/
+#box-one {
+
+background-color: teal;
+
+}
+#box-two {
+
+    background-color: gold;
+}
+
+#box-three {
+
+    background-color: cadetblue;
+}
+#box-four {
+
+background-color : coral;
+
+}
+#box-five {
+
+   background-color: crimson; 
+}
+#box-six {
+
+background-color: forestgreen;
+
+}
+#box-seven {
+
+background-color: darkorchid;
+
+}
+#box-eight {
+
+background-color : hotpink;
+
+}
+#box-nine {
+
+ background-color : indigo;   
+}
+#box-ten {
+
+background-color: dodgerblue;
+
+}
 
 * {
     box-sizing: border-box;
 }
+/*========== Styling About Page starts Here  ==========*/
+
+.pic {
+
+
+        margin-left: 25%;
+        margin-bottom: 2em;
+        width:50%;
+        
+        
+    }
+.first-line {
+
+border-bottom: dotted 3px black;
+margin-bottom: 45px;
+
+
+}
+
+.first-line p {
+
+margin-bottom: 20px;
+
+}
+
+.pic-container {
+
+display: flex;
+
+}
+
+.first-box {
+margin-right: 25px;
+margin-bottom: 5em;
+padding-bottom: 2em;
+border-bottom: dotted 2px black;
+
+}
+.first-box h2 {
+
+margin-top: 10px;
+
+}
+.first-box a {
+display: block;
+padding: 10px ;
+border: solid 2px black;
+border-radius: 10px;
+margin-top: 25px;
+margin-right: 250px;
+text-decoration: none;
+text-align: center;
+}
+
+.second-box {
+    margin-left: 25px;
+    margin-bottom: 5em;
+    padding-bottom: 2em;
+    border-bottom: dotted 2px black;
+
+
+}
+.second-box h2 {
+
+    margin-top: 10px;
+ 
+}
+.second-box a {
+    display: block;
+    padding: 10px ;
+    border: solid 2px black;
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-right: 250px;
+    text-decoration: none;
+    text-align: center;
+    
+}
+
+.second-container {
+
+    display: flex;
+
+
+}
+.third-box {
+    margin-right: 25px;
+    margin-bottom: 5em;
+    padding-bottom: 2em;
+    border-bottom: dotted 2px black;
+
+}
+
+.third-box h2{
+    margin-top: 10px;
+
+
+}
+.third-box a {
+    
+    display: block;
+    padding: 10px ;
+    border: solid 2px black;
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-right: 250px;
+    text-decoration: none;
+    text-align: center;
+    
+
+
+
+}
+.forth-box  {
+    margin-left: 25px;
+    margin-bottom: 5em;
+    padding-bottom: 2em;
+    border-bottom: dotted 2px black;
+
+
+}
+
+.forth-box h2 {
+    margin-top: 10px;
+
+
+}
+.forth-box a {
+    display: block;
+    padding: 10px ;
+    border: solid 2px black;
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-right: 250px;
+    text-decoration: none;
+    text-align: center;
+    
+
+}
+.last-section {
+margin-bottom: 3em;
+
+
+}
+
+
 
 html, body {
     height: 100%;
@@ -101,7 +323,7 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box{
     width: 12.5%;
     height: 100px;
     background: black;
