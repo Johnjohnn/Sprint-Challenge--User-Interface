@@ -39,6 +39,7 @@ Edit this document to include your answers after each question. Make sure to lea
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
 A big difference between inline and block is that display:inline STAYS on the same line of the content whie in the other hand display BLOCK  takes the entire WIDTH of a line . 
+2nd  display inline does not respect paddings and margins like display block does !! 
 
 3. What are the 4 areas of the box model?
 
